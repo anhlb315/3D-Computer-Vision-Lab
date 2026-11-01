@@ -10,7 +10,7 @@ Practical exercises for the 3D Computer Vision course.
 └── exercise_01/
     ├── data/
     ├── exercise_01.ipynb
-    ├── exercise_01_solution.ipynb
+    ├── output/
     └── requirements.txt
 ```
 
@@ -64,7 +64,6 @@ You should see `(venv)` at the beginning of your terminal prompt once it is acti
 ```bash
 pip install --upgrade pip
 pip install -r requirements.txt
-pip install jupyterlab
 ```
 
 ### Step 5: Launch JupyterLab
@@ -74,8 +73,6 @@ jupyter lab
 ```
 
 Your browser will open automatically at `http://localhost:8888`. If it does not, copy the URL containing the `token` from the terminal and paste it into your browser.
-
-In JupyterLab, open `exercise_01.ipynb` from the left sidebar and run each cell with `Shift + Enter`.
 
 ### Step 6: Shut down
 
@@ -97,4 +94,3 @@ jupyter lab
 ## Notes
 
 - Always run `jupyter lab` from inside the `exercise_01` folder so that relative paths to `data/` work correctly.
-- If `np.load(...)` raises an error, pass `allow_pickle=True`.
